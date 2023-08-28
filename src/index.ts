@@ -9,7 +9,7 @@ const program = new Command();
 program
     .name('simplysabir')
     .description('portfolio of sabir khan.')
-    .version('1.1.0')
+    .version('1.2.0')
     
     .action(() => {
 
