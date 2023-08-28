@@ -16,6 +16,10 @@
   },
   "keywords": [],
   "author": "Sabir Khan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplysabir/cli.git"
+},
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.5.7",
