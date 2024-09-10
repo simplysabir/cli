@@ -9,15 +9,14 @@ const program = new Command();
 program
     .name('simplysabir')
     .description('portfolio of sabir khan.')
-    .version('1.2.0')
-    
+    .version('1.3.0')
+
     .action(() => {
 
         console.log(`\n${clc.red.bgWhite.underline("intro about me : ")}
-        \n20-year-old CS undergrad from mumbai. I'm a full stack developer, web 3 developer, and a programmer. I'm also a member of Superteam.
-        \ncurrently studying in my final year of CS B. Tech, I'm based out of mumbai, where I am honing my skills and deepening my understanding of the latest trends and technologies in the field of computer science.\n
+        \nHi, I’m Sabir Khan. an 21 y/o highly curious internet craftsman optimizing for fun. enjoying development & blockchain. building beautiful experiences.
         `);
-        
+
         console.log(`\n${clc.red.bgWhite.underline("my experience : ")}
         \n${clc.black.bgWhite.underline("de_plan proto : June 2023 - Present")}
         \nWorked as a Full Stack Developer to\n
@@ -25,6 +24,14 @@ program
 - Worked on Frontend App \n
 Building the future of location-based applications through proto. Proto is a spatial data registry with decentralized proof-of-location and location-based services on the Solana blockchain
         `);
+
+        console.log(`
+            \n${clc.black.bgWhite.underline("iknowspots : Aug 2023 - Oct 2023 ")}
+            \nWorked as a Smart Contract & Backend Developer to\n
+    - Developed Rust / Anchor Based Smart Contract From Scratch to provide the core functionality
+    - Integrated the Contract in the Frontend\n   
+    
+    \nNFT tickets take flight, with RSVP escrow ensuring everything's just right. Easing up event management with RSVP Escrow. If you're organising an event and don't want people to ghost you, we got you\n`);
 
         console.log(`
         \n${clc.black.bgWhite.underline("splitwave : Feb 2023 - May 2023 ")}
